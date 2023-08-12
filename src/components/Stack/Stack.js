@@ -23,28 +23,28 @@ const Technologies = () => (
         <picture>
           <DiHtml5 size="3rem" />
         </picture>
-        <ListContainer>
-          <ListParagraph>HTML</ListParagraph>
-        </ListContainer>
+
+        <ListParagraph>HTML</ListParagraph>
       </ListItem>
       <ListItem>
         <picture>
           <DiCss3 size="3rem" />
         </picture>
-        <ListContainer>
-          <ListParagraph>CSS</ListParagraph>
-        </ListContainer>
+
+        <ListParagraph>CSS</ListParagraph>
       </ListItem>
       <ListItem>
         <picture>
           <DiJavascript size="3rem" />
         </picture>
+
         <ListParagraph>Javascript</ListParagraph>
       </ListItem>
       <ListItem>
         <picture>
           <DiReact size="3rem" />
         </picture>
+
         <ListParagraph>React.js</ListParagraph>
       </ListItem>
     </List>
