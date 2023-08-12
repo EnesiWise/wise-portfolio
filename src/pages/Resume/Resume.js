@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Section } from "../../styles/GlobalComponents";
-import styles from "../Resume/ResumeStyles";
+
 import {
   Container,
   Div1,
