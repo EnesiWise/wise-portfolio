@@ -14,7 +14,7 @@ import {
   ListTitle,
 } from "./StackStyles";
 
-const Technologies = () => (
+const Stack = () => (
   <Section id="stack">
     <SectionDivider divider />
     <SectionTitle>Stack</SectionTitle>
@@ -51,4 +51,4 @@ const Technologies = () => (
   </Section>
 );
 
-export default Technologies;
+export default Stack;
