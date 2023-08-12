@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-import { Container, Div1 } from "../../components/Header/HeaderStyles";
+import { Container, Div1 } from "../components/Header/HeaderStyles";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 import {
@@ -24,7 +24,7 @@ import {
   SocialContainer,
   SocialIconsContainer,
   SocialIcons,
-} from "./ResumeStyles";
+} from "../components/Resume/ResumeStyles";
 
 const Resume = () => {
   return (
