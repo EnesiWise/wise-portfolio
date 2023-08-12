@@ -69,6 +69,7 @@ export const SectionText = styled.p`
   font-weight: 300;
   padding-bottom: 10px;
   color: rgba(255, 255, 255, 0.5);
+  margin-top: 40px;
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: max-content;
@@ -79,7 +80,7 @@ export const SectionText = styled.p`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     padding-bottom: 10px;
   }
@@ -370,8 +371,8 @@ export const ListTitle = styled.h4`
   font-size: 28px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  color: #ffffff;
-  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 14px;
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: 24px;
@@ -436,6 +437,8 @@ export const ListIcon = styled.img`
     margin-bottom: 0px;
   }
 `;
+//Resume Own Styles
+
 //FooterStyles
 export const FooterWrapper = styled.section`
   width: calc(100vw - 96px);
@@ -501,10 +504,12 @@ export const CompanyContainer = styled.div`
   align-items: baseline;
   flex-wrap: wrap;
   margin-right: auto;
-
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   @media ${(props) => props.theme.breakpoints.md} {
     flex-direction: column;
-    align-items: baseline;
+    align-items: center;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -518,6 +523,7 @@ export const CompanyContainer = styled.div`
 export const Slogan = styled.p`
   color: rgba(255, 255, 255, 0.5);
   min-width: 280px;
+  width: 50%;
   letter-spacing: 0.02em;
   font-size: 18px;
   line-height: 30px;

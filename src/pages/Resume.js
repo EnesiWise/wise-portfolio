@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import BgAnimation from "../components/BackgrooundAnimation/BackgroundAnimation";
 import { Container, Div1 } from "../components/Header/HeaderStyles";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
@@ -44,10 +44,13 @@ const Resume = () => {
           </Link>
         </Div1>
       </Container>
+
       <Section>
+        {/* <BgAnimation /> */}
+
         <SectionDivider colorAlt />
         <SectionTitle style={{ marginTop: "2rem" }}>Resume</SectionTitle>
-        <SectionText>Enesi Wise</SectionText>
+        <ListTitle>Enesi Wise</ListTitle>
 
         <LinkColumn>
           <LinkTitle>Contact:</LinkTitle>
@@ -70,7 +73,54 @@ const Resume = () => {
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </LinkColumn>
+
+        <SectionText>Objective:</SectionText>
+        <ListParagraph>
+          Passionate and dedicated Frontend Developer eager to contribute
+          technical skills and creativity to build engaging user experiences.
+          Seeking an opportunity to learn and grow while working on challenging
+          projects.
+        </ListParagraph>
+        <SectionText>Education:</SectionText>
+        <ListParagraph>
+          Bachelor of Science in Computer Science <br />
+          [University Name]
+          <br />
+          [Location]
+          <br />
+          [Graduation Date]
+        </ListParagraph>
+
+        <SectionText>Skills:</SectionText>
+        <ListParagraph>
+          <ul>
+            <li> * Proficient in HTML5, CSS3, and JavaScript</li>
+            <li> * Familiarity with responsive design principles</li>
+            <li> * Experience with version control systems like Git</li>
+            <li> * Basic knowledge of web performance optimization</li>
+            <li> * Ability to collaborate in cross-functional teams</li>
+            <li> * Strong problem-solving and debugging skills</li>
+          </ul>
+        </ListParagraph>
+
+        <SectionText>Certifications:</SectionText>
+        <ListParagraph>
+          <li>
+            * Frontend Web Development Certificate - [Online Course Platform] -
+            [Date]
+          </li>
+        </ListParagraph>
+
+        <SectionText>References:</SectionText>
+        <ListParagraph>Available upon request.</ListParagraph>
       </Section>
+
+      <FooterWrapper>
+        <LinkList />
+        <CompanyContainer>
+          <Slogan>Making the web for you 🙂</Slogan>
+        </CompanyContainer>
+      </FooterWrapper>
     </>
   );
 };
