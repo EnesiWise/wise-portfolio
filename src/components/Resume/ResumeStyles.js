@@ -599,7 +599,7 @@ export const LinkTitle = styled.h4`
   margin-top: 3px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 12px;
     margin-bottom: 12px;
   }
