@@ -9,9 +9,6 @@ import {
   SectionDivider,
   SectionText,
   SectionTitle,
-  List,
-  ListContainer,
-  ListItem,
   ListParagraph,
   ListTitle,
   CompanyContainer,
@@ -21,8 +18,6 @@ import {
   LinkList,
   LinkTitle,
   Slogan,
-  SocialContainer,
-  SocialIconsContainer,
   SocialIcons,
 } from "../components/Resume/ResumeStyles";
 

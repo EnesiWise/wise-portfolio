@@ -47,7 +47,7 @@ export const GotoTop = styled.div`
   heigth: 50px;
   border: white 2px;
   border-radius: 100%;
-  background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
+  //background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
   position: fixed;
   bottom: 0;
   right: 0;
