@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 import { SocialIcons } from "../Header/HeaderStyles";
@@ -10,6 +11,7 @@ import {
   LinkList,
   LinkTitle,
   Slogan,
+  GotoTop,
   SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
@@ -33,6 +35,7 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Making the web for you 🙂</Slogan>
         </CompanyContainer>
+
         <SocialContainer>
           <SocialIcons href="https://github.com/enesiwise">
             <AiFillGithub size="3rem" />
@@ -42,6 +45,11 @@ const Footer = () => {
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
+      <GotoTop>
+        <a href="#top" style={{ color: "rgba(255, 255, 255, 0.75)" }}>
+          &uarr;
+        </a>
+      </GotoTop>
     </FooterWrapper>
   );
 };
