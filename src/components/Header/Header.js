@@ -43,8 +43,13 @@ const Header = () => (
           <NavLink>Stack</NavLink>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/Resume">
+          <NavLink>Resume</NavLink>
+        </Link>
+      </li> */}
+      <li>
+        <Link href="https://drive.google.com/file/d/15vpH8E1tt-lgD-Iqu_Nwklfv2RzIiZGa/view?usp=drive_link">
           <NavLink>Resume</NavLink>
         </Link>
       </li>
