@@ -5,8 +5,8 @@ export const projects = [
       "A mobile responsive dining webpage that basically highlights a wide range of beautiful styles.",
     image: "/images/1.png",
     // tags: ["HTML", "CSS", "Javascript"],
-    source: "http://enesiwise.github.io/GERICHT-WEB",
-    visit: "http://enesiwise.github.io/GERICHT",
+    source: "http://enesiwise.github.io/gericht",
+    visit: "http://enesiwise.github.io/gericht",
     id: 0,
   },
   {
