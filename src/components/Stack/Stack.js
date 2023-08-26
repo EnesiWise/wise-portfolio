@@ -1,5 +1,5 @@
 import React from "react";
-import { DiCss3, DiHtml5, DiJavascript, DiReact } from "react-icons/di";
+import { DiCss3, DiHtml5, DiJavascript, DiReact, DiGit } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -46,6 +46,13 @@ const Stack = () => (
         </picture>
 
         <ListParagraph>React.js</ListParagraph>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiGit size="3rem" />
+        </picture>
+
+        <ListParagraph>Git</ListParagraph>
       </ListItem>
     </List>
   </Section>
