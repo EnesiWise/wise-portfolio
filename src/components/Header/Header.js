@@ -49,7 +49,7 @@ const Header = () => (
         </Link>
       </li> */}
       <li>
-        <Link href="https://drive.google.com/file/d/12RI0ppiT_z8Suvf01uUSMbeR_4jKFRKB/view?usp=sharing">
+        <Link href="https://drive.google.com/file/d/1fgNYYKQRT9a1J-qe3vI0rU8TRDozYb5G/view?usp=sharing">
           <NavLink>Resume</NavLink>
         </Link>
       </li>
