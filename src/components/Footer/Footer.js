@@ -40,7 +40,7 @@ const Footer = () => {
           <SocialIcons href="https://github.com/enesiwise">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://linkedin.com/in/enesiwise">
+          <SocialIcons href="www.linkedin.com/in/enesiwise-frontend-dev">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>
