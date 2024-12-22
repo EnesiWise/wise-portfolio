@@ -20,10 +20,10 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
-        <LinkColumn>
+        {/* <LinkColumn>
           <LinkTitle>Call</LinkTitle>
           <LinkItem href="tel:070-6474-9960">070-6474-9960</LinkItem>
-        </LinkColumn>
+        </LinkColumn> */}
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:enesiwise@gmail.com">
